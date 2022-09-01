@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <form action="ex3.php">
+        Valor total: <input type="text" name="etiqueta"/><br>
+        Opção de pagamento: <input type="text" name="pagamento" list="pagamento" /><br>
+        <datalist id="pagamento"> 
+            <option>1 - À vista em dinheiro ou cheque, recebe 10% de desconto.</option>
+            <option>2 - À vista no cartão de crédito, recebe 5% de desconto.</option>
+            <option>3 - Em 2 vezes, preço normal da etiqueta sem juros.</option>
+            <option>4 - Em 3 vezes, preço normal da etiqueta mais juros de 10%.</option>
+          </datalist>
+        <input type="submit" value="Enviar" />       
+    </form>
+</body>
+</html>
